@@ -1,0 +1,282 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"tran",
+				"transition-duration"
+			],
+			[
+				"box-s",
+				"box-shadow"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"back",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/kat/Projects/chewbacca/app/assets/stylesheets/bootstrap-responsive.css",
+		"/Users/kat/Projects/chewbacca/app/assets/stylesheets/bootstrap.css",
+		"/Users/kat/Projects/chewbacca/app/assets/stylesheets/style.css",
+		"/Users/kat/Projects/chewbacca/app/views/shared/_header.html.haml",
+		"/Users/kat/Projects/chewbacca/app/views/home/_quote.html.haml",
+		"/Users/kat/Projects/chewbacca/app/assets/javascripts/vendor/custom.js",
+		"/Applications/MAMP/htdocs/website/wp-content/themes/charitize/trt-customize-pro/charitize/customize-controls.js",
+		"/Users/kat/Projects/chewbacca/app/assets/stylesheets/custom.css",
+		"/Users/kat/Projects/chewbacca/app/assets/stylesheets/application.scss",
+		"/Users/kat/Projects/chewbacca/app/views/home/index.html.haml",
+		"/Users/kat/Projects/chewbacca/app/assets/javascripts/vendor/bootstrap.js",
+		"/Users/kat/Projects/chewbacca/app/assets/stylesheets/full-slider.css",
+		"/Users/kat/Projects/chewbacca/app/views/layouts/application.html.haml",
+		"/Users/kat/Projects/chewbacca/app/controllers/application_controller.rb",
+		"/Users/kat/Projects/chewbacca/app/controllers/home_controller.rb",
+		"/Users/kat/Projects/chewbacca/app/views/home/_company_message.html.haml",
+		"/Users/kat/Projects/chewbacca/app/views/home/_blog.html.haml",
+		"/Users/kat/Projects/chewbacca/app/assets/stylesheets/font-awesome.css",
+		"/Users/kat/Projects/chewbacca/app/assets/javascripts/cable.js",
+		"/Users/kat/Projects/chewbacca/app/assets/javascripts/vendor/inview.js",
+		"/Users/kat/Projects/chewbacca/app/assets/javascripts/application.js",
+		"/Users/kat/Projects/chewbacca/app/assets/stylesheets/flexslider.css",
+		"/Users/kat/Projects/chewbacca/app/assets/stylesheets/overwrite.css",
+		"/Users/kat/Projects/chewbacca/app/assets/stylesheets/animate.css",
+		"/Users/kat/personal_projects/website/app/assets/javascripts/vendor/jquery.js",
+		"/Users/kat/Downloads/calendarpdkey.json",
+		"/Users/kat/Downloads/testprojectservicekey.json",
+		"/Users/kat/Downloads/Test Project-ac3b61e84d3b.json",
+		"/Users/kat/personal_projects/quickstart/app/app.component.spec.ts",
+		"/Users/kat/weteachme/automation/test.md",
+		"/Users/kat/Documents/My Files/Wedding Files/Wedding Collaterals/Event Site/ouradventurebegins2016/font-awesome/css/font-awesome.css",
+		"/Users/kat/Documents/My Files/Wedding Files/Wedding Collaterals/Event Site/index.html",
+		"/Users/kat/Desktop/Event Site/ouradventurebegins2016.html",
+		"/Users/kat/Desktop/Event Site/index.html",
+		"/Users/kat/Desktop/Event Site/ouradventurebegins2016/bootstrap.min.css",
+		"/Users/kat/Desktop/Event Site/ouradventurebegins2016/font-awesome.min.css",
+		"/Users/kat/Desktop/Event Site/ouradventurebegins2016/fix.css",
+		"/Users/kat/Desktop/Event Site/ouradventurebegins2016/agency.min.css",
+		"/Users/kat/Documents/charlesandkatherine.com/index.html",
+		"/Users/kat/Downloads/cca587101f24e96dfc757a8b713699f3.svg",
+		"/Applications/MAMP/htdocs/city/wp-config.php",
+		"/Applications/MAMP/htdocs/city/wp-content/thesis/skins/classic-r/css.css"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/kat/Projects/chewbacca/app/assets",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"static",
+			"(max-width: 979px)",
+			"static",
+			"ul#menu-main > li > a",
+			"header",
+			"img",
+			"caption",
+			"animate.css",
+			"slider",
+			"icons",
+			";\n",
+			"animated",
+			".flex-direction-nav li a",
+			"contact",
+			".navbar-custom .navbar-brand",
+			"header .intro-text .intro-heading",
+			".btn-xl",
+			"header .intro-text .intro-lead-in",
+			".btn-primary,.btn-xl,h1,h2,h3,h4,h5,h6",
+			".btn-primary, .btn-xl, h1, h2, h3, h4, h5, h6",
+			"h1, h2, h3, h4, h5, h6",
+			".btn-primary, .btn-xl, h1, h2, h3, h4, h5, h6",
+			"section#contact .form-group input",
+			"section#contact .form-group input, section#contact .form-group textarea",
+			"10px",
+			"section#contact",
+			".form-control",
+			".form-con",
+			"#portfolio .portfolio-item .portfolio-link .portfolio-hover",
+			"services",
+			"#services",
+			"header .intro-text",
+			"https://blackrockdigital.github.io/startbootstrap-agency/",
+			"about .container",
+			"about",
+			"#fec503",
+			"#fec503f98ca9",
+			"#fec503",
+			".navbar-custom .nav li a, .navbar-custom .navbar-toggle",
+			"header .intro-text .intro-lead-in",
+			"@media (min-width: 768px)\nheader .intro-text .intro-lead-in",
+			"header",
+			".intro-heading{font-family:\"Droid Serif\",\"Helvetica Neue\",Helvetica,Arial,sans-serif;text-transform:uppercase;",
+			"intro-heading",
+			"normal normal normal 123px/153px peaches-and-cream-regular-w00,script",
+			"Montserrat,\"Helvetica Neue\",Helvetica,Arial,sans-serif",
+			"intro-heading",
+			"Agency - Start Bootstrap Theme_files/"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"#f98ca9",
+			".intro-heading{font-family:\"Kaushan Script\",\"Helvetica Neue\",Helvetica,Arial,cursive;text-transform:none;",
+			"\"Droid Serif\",\"Helvetica Neue\",Helvetica,Arial,sans-serif",
+			"normal normal normal 123px/153px peaches-and-cream-regular-w00,script",
+			"ouradventurebegins2016/"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "wp-config.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 308.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
