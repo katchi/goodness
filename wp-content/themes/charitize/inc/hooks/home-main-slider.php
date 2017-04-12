@@ -198,6 +198,19 @@ if ( ! function_exists( 'charitize_featured_home_slider' ) ) :
         </div>
         <div class="cycle-pager" id="charitize-pager"></div>
     </section>
+    <!-- katchi added homepage section for about -->
+    <section class="wrapper wrapper-callback black">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2">
+                    <h2>ABOUT</h2>
+                    <div class="text-content">
+                        LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT. DONEC DICTUM DUI ID LEO ACCUMSAN DAPIBUS. PROIN "SED NULLA RHONCUS" PORTTITOR DOLOR A, TEMPUS SAPIEN. DUIS VOLUPAT FINIBUS LIBERO, UT FEUGIAT MOLLIS EGET.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <?php
         }
     }
