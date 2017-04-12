@@ -9,7 +9,7 @@ global $charitize_customizer_defaults;
 $charitize_customizer_defaults['charitize-activities-enable'] = 0;
 $charitize_customizer_defaults['charitize-activities-thumbnail-color-enable'] = 1;
 $charitize_customizer_defaults['charitize-activities-selection'] = 'from-post';
-$charitize_customizer_defaults['charitize-activities-number'] = 4;
+$charitize_customizer_defaults['charitize-activities-number'] = 7;
 $charitize_customizer_defaults['charitize-activities-word-count'] = 30;
 
 
@@ -62,7 +62,10 @@ $charitize_settings_controls['charitize-activities-number'] =
                 1 => __( '1', 'charitize' ),
                 2 => __( '2', 'charitize' ),
                 3 => __( '3', 'charitize' ),
-                4 => __( '4', 'charitize' )
+                4 => __( '4', 'charitize' ),
+                5 => __( '5', 'charitize' ),
+                6 => __( '6', 'charitize' ),
+                7 => __( '7', 'charitize' )
             ),
             'priority'              => 30,
             'active_callback'       => ''

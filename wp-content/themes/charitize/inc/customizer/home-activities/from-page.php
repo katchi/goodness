@@ -20,7 +20,7 @@ $charitize_sections['charitize-activities-pages'] =
 /*creating setting control for charitize-activities-page start*/
 $charitize_repeated_settings_controls['charitize-activities-pages'] =
     array(
-        'repeated' => 4,
+        'repeated' => 7,
         'charitize-activities-pages-ids' => array(
             'setting' =>     array(
                 'default'              => $charitize_customizer_defaults['charitize-activities-pages'],

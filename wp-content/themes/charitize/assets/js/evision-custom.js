@@ -40,7 +40,7 @@ jQuery(document).ready(function ($) {
       autoplaySpeed: 3000,
       dots: true,
       slidesToShow: 4,
-      slidesToScroll: 3,
+      slidesToScroll: 1,
       lazyLoad: 'ondemand',
       responsive: [
          {
