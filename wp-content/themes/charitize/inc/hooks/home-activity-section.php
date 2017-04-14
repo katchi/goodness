@@ -13,7 +13,7 @@ if ( ! function_exists( 'charitize_activity_array' ) ) :
         $charitize_activities_number = absint( $charitize_customizer_all_values['charitize-activities-number'] );
         $charitize_activities_single_words = absint( $charitize_customizer_all_values['charitize-activities-word-count'] );
         $charitize_activity_section_default_args =    array(
-            'post_type' => 'page',
+            'post_type' => 'post',
             'posts_per_page' => 1,
             'orderby' => 'post__in'
         );
@@ -27,6 +27,7 @@ if ( ! function_exists( 'charitize_activity_array' ) ) :
         $repeated_page = array('charitize-activities-pages-ids');
         $charitize_activities_args = array();
 
+        /**
         if ( 'from-category' ==  $from_activity ){
             $charitize_activities_category = $charitize_customizer_all_values['charitize-activities-category'];
             if( 0 != $charitize_activities_category ){
@@ -57,7 +58,17 @@ if ( ! function_exists( 'charitize_activity_array' ) ) :
                 }
 
             }
-        }
+        } */
+        $charitize_activities_category = $charitize_customizer_all_values['charitize-activities-category'];
+        
+            $charitize_activities_args =    array(
+                'post_type' => 'post',
+                'cat' => '1',
+                'ignore_sticky_posts' => true
+            );
+        
+
+
         if( !empty( $charitize_activities_args )){
             // the query
             $charitize_activities_post_query = new WP_Query( $charitize_activities_args );
