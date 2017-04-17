@@ -17,7 +17,7 @@
 $db = parse_url($_ENV["DATABASE_URL"]);
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'd89b6b11nqjnfr');
+define('DB_NAME', 'postgresql-polished-97968');
 /** MySQL database username */
 define('DB_USER', 'hpqzvhflyhaimx');
 /** MySQL database password */
