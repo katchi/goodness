@@ -17,13 +17,13 @@
 $db = parse_url($_ENV["DATABASE_URL"]);
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'postgresql-polished-97968');
+define('DB_NAME', trim($db["postgres://hpqzvhflyhaimx:4bfc947fe99ca292113a366484d0656b1d0d86fb3766bcb8dc06e01d51e90b88@ec2-54-221-244-196.compute-1.amazonaws.com:5432/d89b6b11nqjnfr"],"/"));
 /** MySQL database username */
-define('DB_USER', 'hpqzvhflyhaimx');
+define('DB_USER', $db["hpqzvhflyhaimx"]);
 /** MySQL database password */
-define('DB_PASSWORD', '4bfc947fe99ca292113a366484d0656b1d0d86fb3766bcb8dc06e01d51e90b88');
+define('DB_PASSWORD', $db["4bfc947fe99ca292113a366484d0656b1d0d86fb3766bcb8dc06e01d51e90b88"]);
 /** MySQL hostname */
-define('DB_HOST', 'ec2-54-221-244-196.compute-1.amazonaws.com');
+define('DB_HOST', $db["ec2-54-221-244-196.compute-1.amazonaws.com"]);
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
 /** The Database Collate type. Don't change this if in doubt. */
