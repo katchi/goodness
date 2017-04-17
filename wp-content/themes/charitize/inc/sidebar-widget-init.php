@@ -18,7 +18,6 @@ function charitize_widgets_init() {
 
     $charitize_get_all_options = charitize_get_all_options(1);
     $charitize_footer_widgets_number = $charitize_get_all_options['charitize-footer-sidebar-number'];
-
     if( $charitize_footer_widgets_number > 0 ){
         register_sidebar(array(
             'name' => __('Footer Column One', 'charitize'),
