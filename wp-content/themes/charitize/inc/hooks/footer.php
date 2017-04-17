@@ -117,17 +117,6 @@ if ( ! function_exists( 'charitize_footer' ) ) :
                         }
                         ?>
                     </span>
-                    <?php
-                        if( 1 == $charitize_customizer_all_values['charitize-enable-theme-name']){
-                            ?>
-                        <span class="site-info">
-                            <a href="<?php echo esc_url( 'https://wordpress.org/'); ?>"><?php printf( esc_html__( 'Proudly powered by %s.', 'charitize' ), 'WordPress' ); ?></a>
-                            <span class="sep"> | </span>
-                            <?php printf( esc_html__( 'Theme: %1$s by %2$s', 'charitize' ), 'Charitize', '<a href="http://evisionthemes.com/" rel="designer">eVisionThemes</a>' ); ?>
-                        </span><!-- .site-info -->
-                    <?php
-                        }
-                    ?>
                 </div>
             </div>
         </footer><!-- #colophon -->
