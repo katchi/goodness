@@ -106,6 +106,10 @@
       }
     }
 
+    a[href*="ife.org"]:after {
+      content: "\f09e";
+    }
+
     a[href*="facebook.com"]:after {
       content: "\f09a";
     }
@@ -195,6 +199,10 @@
     }
 
     /*----------------------*/
+
+    a:hover[href*="ife.org"]:after {
+      color: #3C579E !important;
+    }
 
     a:hover[href*="facebook.com"]:after {
       color: #3C579E !important;

@@ -1367,6 +1367,7 @@ dt {
 
 /* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
    readers do not read off random characters that represent icons */
+
 .fa-glass:before {
   content: "\f000";
 }
@@ -1957,6 +1958,10 @@ dt {
 
 .fa-twitter:before {
   content: "\f099";
+}
+
+.fa-ife:before {
+  content: "\f09e";
 }
 
 .fa-facebook-f:before,
@@ -5162,6 +5167,10 @@ dd {
   background-color: #fff;
 }
 
+.evision-social-section ul a[href*="ife.org"]:after {
+  content: "\f09e";
+}
+
 .evision-social-section ul a[href*="facebook.com"]:after {
   content: "\f09a";
 }
@@ -5248,6 +5257,10 @@ dd {
 
 .evision-social-section ul a[href*="vk.com"]:after {
   content: "\f189";
+}
+
+.evision-social-section ul a:hover[href*="ife.org"]:after {
+  color: #3C579E !important;
 }
 
 .evision-social-section ul a:hover[href*="facebook.com"]:after {
@@ -7325,6 +7338,10 @@ body.home.page #secondary {
   font-size: 0;
 }
 
+.social-nav a[href*="ife.org"]:before {
+  content: "\f09e";
+}
+
 .social-nav a[href*="facebook.com"]:before {
   content: "\f09a";
 }
@@ -7374,6 +7391,10 @@ body.home.page #secondary {
 }
 
 /*icon color*/
+.social-nav a:hover[href*="ife.org"] {
+  color: #3C579E;
+}
+
 .social-nav a:hover[href*="facebook.com"] {
   color: #3C579E;
 }
