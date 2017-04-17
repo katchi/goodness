@@ -240,7 +240,7 @@ if ( ! function_exists( 'charitize_header' ) ) :
                 <header id="masthead" class="site-header" role="banner">
                     <div class="container">
                         <div class="row">
-                            <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="col-xs-12 col-sm-6 col-md-3">
                                 <div class="site-branding">
                                     <?php if (version_compare($wp_version, '4.5', '<')) {
                                         if ( isset($charitize_customizer_all_values['charitize-logo']) && !empty($charitize_customizer_all_values['charitize-logo'])) :
@@ -275,10 +275,10 @@ if ( ! function_exists( 'charitize_header' ) ) :
                                     }?>
                                 </div>
                             </div>
-                            <div class="col-xs-12 col-sm-6 col-md-8">
+                            <div class="col-xs-12 col-sm-6 col-md-9">
                                 <div class="row">
                                     <div class="nav-holder">
-                                        <div class="col-xs-9 mb-device go-left">
+                                        <div class="col-xs-7 mb-device go-left">
                                             <button id="menu-toggle" class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><span class="fa fa-bars"></span><?php __('MENU','charitize') ?></button>
                                             <div id="site-header-menu" class="site-header-menu">
                                                 <nav id="site-navigation" class="main-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Primary Menu', 'charitize' ); ?>">
@@ -294,10 +294,18 @@ if ( ! function_exists( 'charitize_header' ) ) :
                                         </div>
                                         <?php if (!is_home()) { ?>
                                             <div class="col-xs-3 mb-device go-right">
-                                                <span class="header-btn">
-                                                    <a href="<?php echo esc_url($charitize_customizer_all_values['charitize-donate-link'] );?>" class="button"><?php echo esc_html($charitize_customizer_all_values['charitize-donate-button-text'] );?></a>
-                                                </span>
-                                            </div>
+                                            <span class="header-btn">
+                                                <a href="<?php echo esc_url($charitize_customizer_all_values['charitize-donate-link'] );?>" class="button"><?php echo esc_html($charitize_customizer_all_values['charitize-donate-button-text'] );?></a>
+                                            </span>
+                                        </div>
+                                        <div class="col-xs-2 mb-device go-right">
+                                            <form role="search" method="get" class="search-form" action="http://localhost:8888/website/">
+                                                <label>
+                                                    <span class="screen-reader-text">Search for:</span>
+                                                    <input type="search" class="search-field" placeholder="Search …" value="" name="s">
+                                                </label>
+                                            </form>
+                                        </div>
                                         <?php } ?>
                                     </div>
                                 </div>
@@ -308,7 +316,7 @@ if ( ! function_exists( 'charitize_header' ) ) :
                 <header id="fixedhead" class="site-header" role="banner">
                     <div class="container">
                         <div class="row">
-                            <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="col-xs-12 col-sm-6 col-md-3">
                                 <div class="site-branding">
                                     <?php if (version_compare($wp_version, '4.5', '<')) {
                                         if ( isset($charitize_customizer_all_values['charitize-logo']) && !empty($charitize_customizer_all_values['charitize-logo'])) :
@@ -336,10 +344,10 @@ if ( ! function_exists( 'charitize_header' ) ) :
                                     }?>
                                 </div>
                             </div>
-                            <div class="col-xs-12 col-sm-6 col-md-8">
+                            <div class="col-xs-12 col-sm-6 col-md-9">
                                 <div class="row">
                                     <div class="nav-holder">
-                                        <div class="col-xs-9 mb-device go-left">
+                                        <div class="col-xs-7 mb-device go-left">
                                             <button id="menu-toggle-fixed" class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><span class="fa fa-bars"></span><?php __('MENU','charitize') ?></button>
                                             <div id="site-header-menu-fixed" class="site-header-menu">
                                                 <nav id="site-navigation-fixed" class="main-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Primary Menu', 'charitize' ); ?>">
@@ -357,6 +365,14 @@ if ( ! function_exists( 'charitize_header' ) ) :
                                             <span class="header-btn">
                                                 <a href="<?php echo esc_url($charitize_customizer_all_values['charitize-donate-link'] );?>" class="button"><?php echo esc_html($charitize_customizer_all_values['charitize-donate-button-text'] );?></a>
                                             </span>
+                                        </div>
+                                        <div class="col-xs-2 mb-device go-right">
+                                            <form role="search" method="get" class="search-form" action="http://localhost:8888/website/">
+                                                <label>
+                                                    <span class="screen-reader-text">Search for:</span>
+                                                    <input type="search" class="search-field" placeholder="Search …" value="" name="s">
+                                                </label>
+                                            </form>
                                         </div>
                                     </div>
                                 </div>
