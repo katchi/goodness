@@ -52,15 +52,6 @@ if ( ! function_exists( 'charitize_before_footer' ) ) :
         <!-- *****************************************
              Footer before section
     ****************************************** -->
-    <section class="wrapper block-section footer-widget">
-        <div class="container overhidden">
-            <div class="row">
-                <div class="col-xs-12 col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2">
-                        <?php dynamic_sidebar( 'footer-col-full' ); ?>
-                </div>
-            </div>
-        </div>
-    </section>
     <section class="wrapper block-section wrap-contact footer-widget">
         <div class="container overhidden">
             <div class="contact-inner evision-animate fadeInUp">

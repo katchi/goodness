@@ -61,14 +61,14 @@ if ( ! function_exists( 'charitize_home_donate_section' ) ) :
                 </div>
             </div>
         </section>
-        <!-- katchi added homepage section for team -->
+        <!-- katchi added homepage section for news -->
         <section class="wrapper block-section widget-block">
             <div class="container">
                 <div class="row">
                     <div class="column-md-12">
-                        <aside id="text-8" class="widget widget_text"><h1 class="widget-title">Our Team</h1>
+                        <aside id="text-8" class="widget widget_text"><h1 class="widget-title">News</h1>
                             <div class="textwidget"><br>
-                                <?php echo do_shortcode('[tmm name="our-team"]'); ?>
+                                <?php dynamic_sidebar( 'footer-col-full' ); ?>
                             </div>
                         </aside>
                     </div>
