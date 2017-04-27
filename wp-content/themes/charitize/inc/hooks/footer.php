@@ -16,7 +16,6 @@ if( ! function_exists( 'charitize_content_wrapper_end' ) ) :
 endif;
 add_action( 'charitize_action_after_content', 'charitize_content_wrapper_end', 10 );
 
-
 if ( ! function_exists( 'charitize_before_footer' ) ) :
     /**
      * Footer content
@@ -51,7 +50,7 @@ if ( ! function_exists( 'charitize_before_footer' ) ) :
         ?>
         <!-- *****************************************
              Footer before section
-    ****************************************** -->
+    ****************************************** -->         
     <section class="wrapper block-section wrap-contact footer-widget">
         <div class="container overhidden">
             <div class="contact-inner evision-animate fadeInUp">
@@ -104,9 +103,26 @@ if ( ! function_exists( 'charitize_footer' ) ) :
         <!-- *****************************************
              Footer section starts
     ****************************************** -->
+        <section class="wrapper block-section wrap-contact footer-widget black">
+            <div class="container overhidden">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="text-content"><br>
+                            <?php dynamic_sidebar( 'footer-col-wide' ); ?>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="text-content"><br>
+                            <?php dynamic_sidebar( 'footer-col-narrow' ); ?>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <footer id="colophon" class="wrapper evision-wrapper site-footer" role="contentinfo">
             <div class="container">
                 <nav class="footer-nav main-navigation">
+                <?php echo do_shortcode('[gtranslate]'); ?>
                     <?php wp_nav_menu( array( 'theme_location' => 'footer', 'menu_id' => 'primary-menu', 'fallback_cb' => false, ) ); ?>
                 </nav>
                 <div class="footer-bottom">

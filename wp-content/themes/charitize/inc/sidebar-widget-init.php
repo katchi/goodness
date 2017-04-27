@@ -27,6 +27,24 @@ function charitize_widgets_init() {
                 'before_title'  => '<h1 class="widget-title">',
                 'after_title'   => '</h1>',
             ));
+    register_sidebar(array(
+                'name' => __('Footer Column Wide', 'charitize'),
+                'id' => 'footer-col-wide',
+                'description' => __('Displays items on footer wide section.','charitize'),
+                'before_widget' => '<div class="text-content">',
+                'after_widget' => '</div>',
+                'before_title'  => '<h1 class="widget-title">',
+                'after_title'   => '</h1>',
+            ));
+    register_sidebar(array(
+                'name' => __('Footer Column Narrow', 'charitize'),
+                'id' => 'footer-col-narrow',
+                'description' => __('Displays items on footer narrow section.','charitize'),
+                'before_widget' => '<div class="text-content">',
+                'after_widget' => '</div>',
+                'before_title'  => '<h1 class="widget-title">',
+                'after_title'   => '</h1>',
+            ));
     if( $charitize_footer_widgets_number > 0 ){
         register_sidebar(array(
             'name' => __('Footer Column One', 'charitize'),
